@@ -28,6 +28,7 @@ body {
 a {
     text-decoration: none;
     color: rgb(228, 225, 225);
+    font-size: small;
 }
 
 ul {
@@ -84,6 +85,10 @@ ul {
 .hero-image-placeholder {
     color: #fff;
 }
+
+/* .header-button:hover {
+    font-weight: 400;
+} */
 
 /* Information Section */
 .box-container {
@@ -171,12 +176,29 @@ ul {
     gap: 290px;
 }
 
-cta-btn {
-    background-color: #3882f6;
-    color: #E5E7EB;
-    padding: 8px;
+.cta-btn button, .header-button {
+    background: #3882f6;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 5px;
+
 }
 
+.cta-btn button {
+    border: 1px solid #E5E7EB;
+
+}
+
+.header-button {
+    border-style: none;
+}
+
+.cta-btn button:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    transition: 3800;
+
+}
 /* Footer */
 
 .footer {
